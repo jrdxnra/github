@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real Raw Fitness</title>
-    <!-- CSS styles remain the same -->
+    <title>Social Page - Real Raw Fitness</title>
     <style>
-        /* CSS styles from index.html */
+        /* CSS styles remain the same */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        /* Define styles for posts and media */
+        .post {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post h3 {
+            margin-top: 0;
+        }
+        .post p {
+            margin-bottom: 10px;
+        }
+        .post img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .post video {
+            max-width: 100%;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -16,22 +43,26 @@
     <nav>
         <!-- Navigation links -->
     </nav>
-    <section id="about">
-        <!-- About Me section -->
-    </section>
-    <section id="one-on-one">
-        <!-- One-on-One Training section -->
-    </section>
-    <section id="semi-private">
-        <!-- Semi-Private Training section -->
-    </section>
-    <section id="contact">
-        <!-- Contact Information section -->
-    </section>
     <section id="social">
         <h2>Social</h2>
-        <!-- Link to social page -->
-        <a href="social.html">Visit Social Page</a>
+        <div class="post">
+            <h3>User123</h3>
+            <p>Had an amazing workout today! Feeling stronger every day.</p>
+            <!-- Example image post -->
+            <img src="image.jpg" alt="Workout Image">
+            <div class="like-comment">Like · Comment</div>
+        </div>
+        <div class="post">
+            <h3>FitnessFan</h3>
+            <p>Joined a semi-private session and it was fantastic! Great support from everyone.</p>
+            <!-- Example video post -->
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="like-comment">Like · Comment</div>
+        </div>
+        <!-- Additional posts can be added here -->
     </section>
     <footer>
         <!-- Footer content -->
